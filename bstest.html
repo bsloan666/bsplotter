@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bsplotter Demo</title>
+<script type="text/javascript" src="bsplotter.js"></script>
+</head>
+<body>
+<center>
+<canvas id="linegraph" width="720" height="240"></canvas><br/>
+<br/>
+<input textarea id="lineText" valign="top" rows="3" cols="80" 
+    style="width:720px;height:32px"  onkeypress="lineGraph()" 
+    value="20,250 40,200 60,230 80,120 100,150 120,75 140,90 160,83"/>
+<br/>
+<canvas id="piechart" width="720" height="240"></canvas><br/>
+<br/>
+<input textarea id="pieText" valign="top" rows="3" cols="80" 
+    style="width:720px;height:32px"  onkeypress="pieChart()" 
+    value="monkey,250 cat,200 dog,75 goldfish,15"/>
+<center>
+</body>
+</html>
